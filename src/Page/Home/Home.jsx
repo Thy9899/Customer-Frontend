@@ -12,7 +12,7 @@ const Home = () => {
 
       <div className="main-content">
         <Routes>
-          <Route path="/Customer-Frontend/" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/heart" element={<Heart />} />
         </Routes>
