@@ -1,0 +1,44 @@
+/* General */
+.saved-products {
+  width: 80%;
+  margin: 0 auto; /* ✅ centers horizontally */
+  padding: 5px; /* more balanced spacing */
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* keeps title centered with back btn */
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* slightly smaller, cleaner */
+  font-weight: 500;
+  color: #333; /* consistent text color */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.btn-back:hover {
+  transform: scale(1.05);
+  color: #000;
+}
+
+.header .page-title {
+  flex: 1; /* takes available space */
+  text-align: center; /* ensures centered */
+  font-size: 22px; /* balanced size */
+  font-weight: 600;
+  margin: 0; /* reset default margin */
+}
